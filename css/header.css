@@ -1,0 +1,46 @@
+header{
+    background-color: #222;
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header nav a {
+    margin-right:  1.3em;
+    font-size: 1.5em;
+}
+
+header a{
+    color: #00e0ff;
+}
+
+
+header a img{
+    
+    
+    cursor: pointer;
+    border: 1px #00e0FF;
+    transition: 0.10s ease-in-out;
+    width: 53px;
+    height: 60px;
+    padding: 5px;
+    
+
+}
+
+header a:hover{
+    box-shadow: 1px 1px 8px #00e0ff;
+    border-radius: 8px;
+    
+}

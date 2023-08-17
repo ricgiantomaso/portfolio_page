@@ -1,0 +1,83 @@
+main {
+    padding: 5%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* main content */
+
+main .main-content {
+    display: flex;
+    flex-direction: column;
+}
+
+main .main-content h2 {
+    margin-bottom: 2%;
+    font-size: 2.2em;
+}
+
+main .main-content .texto p {
+    width: 75%;
+    font-size: 1.2em;
+    font-weight: 300;
+    text-align: justify;
+}
+
+
+main .main-content .texto {
+    margin-bottom: 10%;
+}
+
+
+main .techs .card-conteiner {
+    display: flex;
+    align-items: center;
+}
+
+main .techs .card-conteiner .card {
+    width: 90px;
+    height: 90px;
+    padding: 10px;
+    border-radius: 8px;
+    margin-right: 1.8em;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: box-shadow 0.10s  ease-in-out;
+}
+
+main .techs .card-conteiner .card img {
+    width: 100%;
+}
+
+main .techs .card-conteiner .card:hover {
+    box-shadow: 0px 0px 8px #00e0ff
+}
+
+main figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main figure img {
+    margin-top: -200px;
+    width: 200px;
+    height: 220px;
+    border-radius: 100px;
+
+    margin-bottom: 6%;
+    cursor: pointer;
+    border: 1px #00e0FF;
+    transition: 0.10s ease-in-out;
+}
+
+main figure img:hover {
+    box-shadow: 0px 0px 6px #00e0FF
+}

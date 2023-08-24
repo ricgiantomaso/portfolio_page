@@ -42,6 +42,7 @@ main .techs .card-conteiner .card {
     padding: 10px;
     border-radius: 8px;
     margin-right: 1.8em;
+    margin-left: 1.8em;
     cursor: pointer;
 
     display: flex;
